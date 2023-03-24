@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>laba3 Ohremenko</title>
+</head>
+<body>
+
+<style>
+  table{
+  	height:300px;
+  }
+  .zona{
+  	height:60px; 
+  	width:425px
+  }
+ 
+</style>
+
+    <table border="1">
+			<tr>
+				<th colspan="3" width = "20" height="25">Pizza shop 2.0</td>	
+			</tr>
+
+			<tr>
+				<td width = "125" >Name</td>
+				<td colspan="2" width = "300" height="25"> <input type="text" name="name" required placeholder="Yegor"> </td>             
+			</tr>
+
+			<tr>
+				<td width = "100" height="50">Pizza Topping</td>
+				<td colspan="2" width = "100" height="50">
+                
+                     <input type="radio" name="topping" size="25">Supreme</input><br />
+                     <input type="radio" name="topping" size="25">Vegetarian</input><br />
+                     <input type="radio" name="topping" size="25">Hawaiian</input><br /> </td>		
+			</tr>
+
+			<tr>
+				<td>Pizza Sauce</td>
+				<td colspan="2" width = "50" height="25"> 
+                        <select>
+                        <option selected>Tomato</option>
+                        <option>Fish</option>
+                        <option>Meat</option>
+                        <option>Vegetables</option>
+                        <option>Fruit</option> </td>
+			</tr>
+
+			<tr>
+				<td>Optional Extrans</td>
+				<td colspan="2" width = "50" height="25"> 
+                   <input type="checkbox" name="chesse">Extra Cheese</input>
+                   <input type="checkbox" name="gluten">Gluten Free Base</input></td>   
+			</tr>
+
+            <tr>
+                <td colspan="2">Delivery Instructions:<br /><textarea class="zona" required placeholder="Kyiv, Lisova street, entrance 3, apartment 23"></textarea></td>
+			<tr>
+				<td colspan="3" width = "100" height="25"><input type="button" value="Send my Order"></td>
+            </tr>
+
+	</table>
+</body>
+</html>
